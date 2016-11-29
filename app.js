@@ -13,7 +13,7 @@ storage.initSync();
 // We use the Yargs package to pass command line (and HTTP???) arguments to our app.
 var argv = require('yargs')
 	// .command(the name of our command, a description to use when we call the --help flag)
-	.command('create', 'Adds a new password.', function (yargs) {
+	.command('create', 'Adds a new password.', function(yargs) {
 		yargs.options({ // An object containing all of our command line OPTIONS 
 			name: {
 				demand: true,
@@ -43,7 +43,7 @@ var argv = require('yargs')
 		}).help('help'); // Which flag to use when the user wants to call the "help". In this case '--help'.
 	})
 	// Add another command, 'get'.
-	.command('get', 'Gets an existing account and its password.', function (yargs) {
+	.command('get', 'Gets an existing account and its password.', function(yargs) {
 		yargs.options({
 			name: {
 				demand: true,
@@ -79,7 +79,7 @@ var command = argv._[0];
 
 // A typical argv object might look something like this:
 // { 
-// 	_: [ 'hello' ],
+// 	 _: [ 'hello' ],
 //   help: false,
 //   n: 'Jonathan',
 //   name: 'Jonathan',
@@ -111,11 +111,11 @@ function saveAccounts(accounts, masterPassword) {
 	storage.setItemSync('accounts', encryptedAccounts.toString());
 	
 	// Return the accounts string.
-	console.log('This is the stored accounts data called from saveAccounts' + accounts);
 	return accounts;
 }
 
 function createAccount(account, masterPassword) {
+	var accounts = getAccounts(masterPassword);
 
 	// Push the account to the accounts list/array.
 	accounts.push(account);
