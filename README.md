@@ -10,7 +10,9 @@ Please don't actually use this to manage your passwords. This is just a pet proj
 ### Install
 
 ```git clone https://github.com/jonathanbell/password-manager.git```
+
 ```cd password-manager```
+
 ```npm install```
 
 ### Adding a Password
