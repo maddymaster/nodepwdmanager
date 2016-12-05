@@ -9,7 +9,7 @@
   },
   "repository" : { 
     "type" : "git", 
-    "url" : "https://github.com/jonathanbell/nodepwdmanager.git"
+    "url" : "https://github.com/jonathanbell/password-manager.git"
   },
   "author": "Jonathan Bell",
   "license": "WTFPL",
