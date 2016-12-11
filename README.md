@@ -3,7 +3,7 @@ Node Password Manager
 
 A command line password manager written in Node.
 
-Please don't actually use this to manage your passwords. This is just a pet project. Thanks :) 
+This is a pet project altough you could probably use it in real life. There is no warranty. See LICENCE file for more information. Thanks :) 
 
 ## Usage
 
