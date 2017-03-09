@@ -29,4 +29,4 @@ Use your master password with _every_ command (other than help) via the ```-m```
 
 Help is available via the ```--help``` flag.
 
-Use it like: ```node app.js --help``` or ```node app.js create --help``` or ```node app.js get --help```
+Use the help flag like this: ```node app.js --help``` or ```node app.js create --help``` or ```node app.js get --help```
