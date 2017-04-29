@@ -1,14 +1,18 @@
 {
-  "name": "passwordmanager",
-  "version": "1.0.0",
-  "description": "Manage your passwords locally",
-  "main": "index.js",
+  "name": "nodepwdmanager",
+  "version": "0.0.1",
+  "description": "Manage passwords locally via the command line.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "author": "maddy",
-  "license": "ISC",
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/jonathanbell/password-manager.git"
+  },
+  "author": "Jonathan Bell",
+  "license": "WTFPL",
   "dependencies": {
     "crypto-js": "^3.1.5",
     "node-persist": "0.0.6",
